@@ -1,0 +1,70 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to left, #ffc0bb, #ffeeee);
+}
+
+.card-container {
+  display: flex;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 30px;
+  height: 42%;
+  width: 34%;
+}
+
+.feedback-text {
+  font-family: 'Roboto';
+  font-size: 26px;
+  padding-bottom: 25px;
+}
+
+.emoji-container {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-right: 40px;
+}
+
+.emoji-button {
+  background-color: #ffffff;
+  border-style: none;
+  width: 60px;
+  cursor: pointer;
+}
+
+.emoji-image {
+  border-style: none;
+  height: 55px;
+  width: 55px;
+  margin-bottom: 5px;
+}
+
+.emoji-name {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #0f172a;
+}
+
+.love-emoji {
+  height: 60px;
+  width: 60px;
+  margin-top: 20px;
+}
+
+.thankyou-text {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.thankyou-note {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
